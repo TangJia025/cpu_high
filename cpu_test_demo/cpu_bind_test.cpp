@@ -42,7 +42,7 @@ void fChildren(int id)
 	while(1)
 	{
 		printf("Children_%d!\n", id);
-		sleep(1);
+//		usleep(1);
 	}
 }
 
@@ -51,7 +51,7 @@ void fFatcher()
 	while(1)
 	{
 		printf("Father!\n");
-		sleep(1);
+//		usleep(1);
 	}
 }
 
